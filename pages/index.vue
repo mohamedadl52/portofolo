@@ -210,6 +210,7 @@
         :steps="['Hello', 1000, 'Hello world!', 500]"
         :wrapper="'h2'"
       ></typical>
+      <br>
       <typical
         class="vt-subTitle text-white font-bold xl:text-3xl"
         :steps="[' Awesome website!', 500, ' Awesome! Aha :-) 👋', 1000]"

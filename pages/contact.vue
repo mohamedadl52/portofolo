@@ -8,16 +8,14 @@
           type="text"
           name=""
           placeholder="name"
-          class="w-full md:w-56 p-0 border-collapse"
-          style="background-color: #5a4b4b"
+          class="w-full md:w-56"
         />
         <input
           id=""
           type="email"
           name=""
           placeholder="email"
-          class="w-full md:w-64 p-0"
-          style="background-color: #5a4b4b"
+          class="w-full md:w-64"
         />
         <br />
         <input
@@ -26,15 +24,9 @@
           name=""
           placeholder="subject"
           class="w-full p-0"
-          style="background-color: #5a4b4b"
         />
         <br />
-        <textarea
-          class="w-full"
-          rows="6"
-          placeholder="message"
-          style="background-color: #5a4b4b"
-        ></textarea>
+        <textarea class="w-full" rows="6" placeholder="message"></textarea>
 
         <button
           style="background-color: #5a4b4b"
