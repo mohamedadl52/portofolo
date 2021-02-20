@@ -8,6 +8,7 @@
         مرحبا انا
         <span style="font-family: 'Aref Ruqaa', serif">محمد عادل </span>
       </h1>
+
       <h2
         class="xl:top-56 md:right-24 md:text-4xl top-64 text-2xl xl:right-64 z-20 right-12 xl:text-4xl text-white absolute"
         style="font-famaily: "
@@ -261,6 +262,6 @@ h2 {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .bgground {
-  background-color: black;
+  background-color: #797171;
 }
 </style>

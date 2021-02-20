@@ -58,6 +58,6 @@ input {
   padding: 2px;
 }
 .bgground {
-  background-color: #000;
+  background-color: #797171;
 }
 </style>

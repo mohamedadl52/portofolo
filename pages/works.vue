@@ -61,32 +61,48 @@
       <splide ref="primary2" :options="primaryOptions2">
         <splide-slide>
           <div class="flex justify-between">
-            <p class="text-xl">this project talk about medicen in 2021</p>
-            <span class="text-blue-500 font-bold text-xl">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+              this project talk about medicen in 2021
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
               <a href="/">visit project</a></span
             >
           </div>
         </splide-slide>
         <splide-slide>
           <div class="flex justify-between">
-            <p class="text-xl">this project talk about medicen in 2021</p>
-            <span class="text-blue-500 font-bold text-xl">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+              this project talk about medicen in 2021
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
               <a href="/">visit project</a></span
             >
           </div>
         </splide-slide>
         <splide-slide>
           <div class="flex justify-between">
-            <p class="text-xl">this project talk about medicen in 2021</p>
-            <span class="text-blue-500 font-bold text-xl">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+              this project talk about medicen in 2021
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
               <a href="/">visit project</a></span
             >
           </div>
         </splide-slide>
         <splide-slide>
           <div class="flex justify-between">
-            <p class="text-xl">this project talk about medicen in 2021</p>
-            <span class="text-blue-500 font-bold text-xl">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+              this project talk about medicen in 2021
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
               <a href="/">visit project</a></span
             >
           </div>
@@ -118,6 +134,7 @@
         src="../assets/images/animal.png"
         alt=""
       />
+
       <img
         style="transform: rotateY(180deg)"
         class="absolute top-4 left-4 w-16"
@@ -200,7 +217,7 @@ export default {
         type: 'loop',
         perPage: 1,
         width: 1200,
-        height: 30,
+        height: 40,
         perMove: 1,
         focus: true,
         // autoplay: true,
@@ -247,6 +264,6 @@ export default {
 
 <style lang="scss" scoped>
 .bgground {
-  background-color: #000;
+  background-color: #797171;
 }
 </style>
