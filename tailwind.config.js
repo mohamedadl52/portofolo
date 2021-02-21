@@ -18,8 +18,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        maincolor: colors.green[400],
-        secound: colors.white,
+        maincolor:" #1a4789",
+        btn: "#ff9c00",
       },
     },
   },
