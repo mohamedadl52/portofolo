@@ -115,10 +115,35 @@
                </div>
           </div>
     </section>
-      <section class="w-full h-screen sec2">
-       <div  class="w-full XL:h-screen  ">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, blanditiis rerum sequi explicabo eligendi itaque in? Placeat optio sunt itaque repellendus, libero, harum dolorem alias iusto deserunt hic eveniet exercitationem!
+      <section class="w-full xl:h-screen mt-10 sec2">
+       <div class="div w-full xl:h-screen">
+            <div  class="w-full  mt-10  "> <br>
+          <p class="text-white text-center text-3xl font-bold uppercase  ">our latest projects </p>
+          <p class="text-white text-center text-xl mb-10 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro dolorem quasi magni sequi fuga nulla fugiat </p>
+          </div>
+  
+  <div class="flex container mx-auto flex-col items-center justify-center mt-20 xl:mt-7 xl:justify-around md:flex-row">
+           <div class="text-white text-center leading-8 mb-20">
+            <img width="250" class="mx-auto" src="../assets/images/project1/9.png" alt="">
+            <p class="text-3xl font-bold">food and gd</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, fugit velit</p>
+            <button class="p-2 bg-btn mt-8 md:mt-2 ">learn more</button>
+           </div>
+           <div class="text-white text-center leading-8 mb-20">
+            <img width="250" class="mx-auto" src="../assets/images/project1/9.png" alt="">
+            <p class="text-3xl font-bold">food and gd</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, fugit velit</p>
+            <button class="p-2 bg-btn mt-8  md:mt-2">learn more</button>
+           </div>
+           <div class="text-white text-center leading-8 mb-20">
+            <img width="250" class="mx-auto" src="../assets/images/project1/9.png" alt="">
+            <p class="text-3xl font-bold">food and gd</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, fugit velit</p>
+            <button class="p-2 bg-btn mt-8  md:mt-2 ">learn more</button>
+           </div>
+  </div>
        </div>
+
       </section>
   </div>
 </template>
@@ -171,7 +196,7 @@ header {
 .sec2 {
   background: url("../assets/images/project1/8.png") no-repeat;
   background-size: cover;
-  div{
+  .div{
     background:#1a4789b8;
   }
 }
