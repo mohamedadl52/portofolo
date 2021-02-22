@@ -1,7 +1,8 @@
+
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  srr : false ,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -34,7 +35,7 @@ export default {
     { src: '~/plugins/noti.js', ssr: false },
     { src: '@/plugins/fabric.js', mode: 'client' },
     { src: '@/plugins/typical.js', mode: 'client' },
-    { src: '@/plugins/canvas.js', mode: 'client' },
+    // { src: '@/plugins/canvas.js', mode: 'client' },
     { src: '@/plugins/progressbar.js', mode: 'client' },
   ],
 
@@ -47,6 +48,11 @@ export default {
     // '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+ 
+
+    // With options
+  // '@nuxtjs/vuetify',
+  
 
     [
       'nuxt-fontawesome',
@@ -63,12 +69,16 @@ export default {
       },
     ],
   ],
+
+
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
     exposeConfig: false,
     config: {},
   },
+
+
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
