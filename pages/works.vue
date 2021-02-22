@@ -126,7 +126,7 @@
     </div>
 
     <div
-      style="background-color: #5a4b4b"
+      style="background-color: #797171"
       class="flex flex-col justify-center items-center absolute top-56 md:hidden"
     >
       <img
