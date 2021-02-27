@@ -69,6 +69,9 @@
         <splide-slide>
    <img src="../assets/images/imgprojects/animations.JPG"/>
         </splide-slide>
+        <splide-slide>
+   <img src="../assets/images/imgprojects/stylehair.JPG"/>
+        </splide-slide>
       </splide>
       <splide ref="primary2" :options="primaryOptions2">
         <splide-slide>
@@ -166,6 +169,18 @@
               class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
             >
               <a href="/animations">visit project</a></span
+            >
+          </div>
+        </splide-slide>
+        <splide-slide>
+          <div class="flex justify-between">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+              template style hair  
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
+              <a href="/hairstyle">visit project</a></span
             >
           </div>
         </splide-slide>
@@ -320,6 +335,18 @@
         <p class="text-center pp">some animations in one page</p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="/animations">  visit project  </a>
+        </p>
+      </div>
+      <div class="my-6 mx-4 text-white">
+        <img
+         src="../assets/images/imgprojects/stylehair.JPG"
+          class=""
+          style="max-width: 100%"
+          alt=""
+        />
+        <p class="text-center pp"> template style hair  </p>
+        <p class="text-center text-blue-400 text-xl font-bold">
+          <a href="/hairstyle">  visit project  </a>
         </p>
       </div>
     </div>
