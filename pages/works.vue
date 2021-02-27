@@ -223,7 +223,7 @@
       >
         my works
       </p>
-      <div class="my-6 mx-4">
+      <div class="my-6 mx-4 text-white">
         <img
        src="../assets/images/imgprojects/sushii.JPG"
           class=""
@@ -235,7 +235,7 @@
           <a href="https://mohhaammeedd.000webhostapp.com/sushi/">visit project </a>
         </p>
       </div>
-      <div class="my-6 mx-4">
+      <div class="my-6 mx-4 text-white">
         <img
            src="../assets/images/imgprojects/yogaa.JPG"
           class=""
@@ -259,7 +259,7 @@
           <a href="https://blognewrepo.herokuapp.com/"> visit project  </a>
         </p>
       </div>
-      <div class="my-6 mx-4">
+      <div class="my-6 mx-4 text-white">
         <img
          src="../assets/images/imgprojects/tanatos.jpg"
           class=""
@@ -271,7 +271,7 @@
           <a href="http://mohhaammeedd.000webhostapp.com/tanatos">  visit project  </a>
         </p>
       </div>
-      <div class="my-6 mx-4">
+      <div class="my-6 mx-4 text-white">
         <img
         src="../assets/images/imgprojects/timer.JPG"
           class=""
@@ -283,7 +283,7 @@
           <a href="https://mohhaammeedd.000webhostapp.com/test1/"> visit project </a>
         </p>
       </div>
-      <div class="my-6 mx-4">
+      <div class="my-6 mx-4 text-white">
         <img
          src="../assets/images/imgprojects/flipauth.JPG"
           class=""
@@ -295,7 +295,7 @@
           <a href="https://mohhaammeedd.000webhostapp.com/flipauth/"> visit project  </a>
         </p>
       </div>
-      <div class="my-6 mx-4">
+      <div class="my-6 mx-4 text-white">
         <img
          src="../assets/images/imgprojects/learnenglish.jpg"
           class=""
@@ -307,7 +307,7 @@
           <a href="https://mohhaammeedd.000webhostapp.com/learnEngilsh/">  visit project  </a>
         </p>
       </div>
-      <div class="my-6 mx-4">
+      <div class="my-6 mx-4 text-white">
         <img
          src="../assets/images/imgprojects/animations.JPG"
           class=""
