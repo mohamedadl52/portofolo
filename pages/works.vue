@@ -46,83 +46,155 @@
         @splide:arrows:updated="onArrowsMounted"
       >
         <splide-slide>
-          <img src="../assets/images/5.jpg" />
+          <img src="..\assets\images\imgprojects\sushii.JPG"/>
         </splide-slide>
         <splide-slide>
-          <img src="../assets/images/2.jpg" />
+            <img src="..\assets\images\imgprojects\yogaa.JPG"/>
         </splide-slide>
         <splide-slide>
-          <img src="../assets/images/3.jpg" />
+        <img src="..\assets\images\imgprojects\clanasowa.JPG"/>
         </splide-slide>
         <splide-slide>
-          <img src="../assets/images/4.jpg" />
+   <img src="..\assets\images\imgprojects\tanatos.JPG"/>
+        </splide-slide>
+        <splide-slide>
+   <img src="..\assets\images\imgprojects\timer.JPG"/>
+        </splide-slide>
+        <splide-slide>
+   <img src="..\assets\images\imgprojects\flipauth.JPG"/>
+        </splide-slide>
+        <splide-slide>
+   <img src="..\assets\images\imgprojects\learnenglish.JPG"/>
+        </splide-slide>
+        <splide-slide>
+   <img src="..\assets\images\imgprojects\animations.JPG"/>
         </splide-slide>
       </splide>
       <splide ref="primary2" :options="primaryOptions2">
         <splide-slide>
           <div class="flex justify-between">
             <p class="text-xl p-2 w-10/12 bg-blue-400">
-              this project talk about medicen in 2021
+              sushi template
             </p>
             <span
               class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
             >
-              <a href="/">visit project</a></span
+              <a href="https://mohhaammeedd.000webhostapp.com/sushi/">visit project</a></span
             >
           </div>
         </splide-slide>
         <splide-slide>
           <div class="flex justify-between">
             <p class="text-xl p-2 w-10/12 bg-blue-400">
-              this project talk about medicen in 2021
+               yoga template 
             </p>
             <span
               class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
             >
-              <a href="/">visit project</a></span
+              <a href="/yoga">visit project</a></span
             >
           </div>
         </splide-slide>
         <splide-slide>
           <div class="flex justify-between">
             <p class="text-xl p-2 w-10/12 bg-blue-400">
-              this project talk about medicen in 2021
+               blog kalna sowa 
             </p>
             <span
               class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
             >
-              <a href="/">visit project</a></span
+              <a href="/https://blognewrepo.herokuapp.com/">visit project</a></span
             >
           </div>
         </splide-slide>
         <splide-slide>
           <div class="flex justify-between">
             <p class="text-xl p-2 w-10/12 bg-blue-400">
-              this project talk about medicen in 2021
+               tanatos template  (just for pc)
             </p>
             <span
               class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
             >
-              <a href="/">visit project</a></span
+              <a href="http://mohhaammeedd.000webhostapp.com/tanatos">visit project</a></span
             >
           </div>
         </splide-slide>
+        <splide-slide>
+          <div class="flex justify-between">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+               timer with animation
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
+              <a href="https://mohhaammeedd.000webhostapp.com/test1/">visit project</a></span
+            >
+          </div>
+        </splide-slide>
+        
+        <splide-slide>
+          <div class="flex justify-between">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+              style flip login 
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
+              <a href="https://mohhaammeedd.000webhostapp.com/flipauth/">visit project</a></span
+            >
+          </div>
+        </splide-slide>
+        
+        <splide-slide>
+          <div class="flex justify-between">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+              style lading page 
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
+              <a href="https://mohhaammeedd.000webhostapp.com/learnEngilsh/">visit project</a></span
+            >
+          </div>
+        </splide-slide>
+        <splide-slide>
+          <div class="flex justify-between">
+            <p class="text-xl p-2 w-10/12 bg-blue-400">
+              some animations in one page 
+            </p>
+            <span
+              class="text-blue-400 flex-grow text-center hover:text-gray-500 transition-all duration-700 bg-white font-bold text-xl"
+            >
+              <a href="/animations">visit project</a></span
+            >
+          </div>
+        </splide-slide>
+        
       </splide>
 
-      <splide ref="secondary" :options="secondaryOptions">
-        <splide-slide>
-          <img src="../assets/images/5.jpg" />
+      <!-- <splide ref="secondary" :options="secondaryOptions">
+       <splide-slide>
+          <img src="..\assets\images\imgprojects\sushii.JPG"/>
         </splide-slide>
         <splide-slide>
-          <img src="../assets/images/2.jpg" />
+            <img src="..\assets\images\imgprojects\yogaa.JPG"/>
         </splide-slide>
         <splide-slide>
-          <img src="../assets/images/3.jpg" />
+        <img src="..\assets\images\imgprojects\clanasowa.JPG"/>
         </splide-slide>
         <splide-slide>
-          <img src="../assets/images/4.jpg" />
+   <img src="..\assets\images\imgprojects\tanatos.JPG"/>
         </splide-slide>
-      </splide>
+        <splide-slide>
+   <img src="..\assets\images\imgprojects\timer.JPG"/>
+        </splide-slide>
+        <splide-slide>
+   <img src="..\assets\images\imgprojects\flipauth.JPG"/>
+        </splide-slide>
+        <splide-slide>
+   <img src="..\assets\images\imgprojects\learnenglish.JPG"/>
+        </splide-slide>
+      </splide> -->
     </div>
 
     <div
@@ -153,38 +225,98 @@
       </p>
       <div class="my-6 mx-4">
         <img
-          src="../assets/images/1.jpg"
+       src="..\assets\images\imgprojects\sushii.JPG"
           class=""
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">this project for med</p>
+        <p class="text-center">sushi template</p>
         <p class="text-center text-blue-400 text-xl font-bold">
-          <a href="#">visit project </a>
+          <a href="https://mohhaammeedd.000webhostapp.com/sushi/">visit project </a>
         </p>
       </div>
       <div class="my-6 mx-4">
         <img
-          src="../assets/images/1.jpg"
+           src="..\assets\images\imgprojects\yogaa.JPG"
           class=""
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">this project for med</p>
+        <p class="text-center">yoga template</p>
         <p class="text-center text-blue-400 text-xl font-bold">
-          <a href="#">visit project </a>
+          <a href="/yoga">visit project </a>
         </p>
       </div>
       <div class="my-6 mx-4">
         <img
-          src="../assets/images/1.jpg"
+          src="..\assets\images\imgprojects\clanasowa.JPG"
           class=""
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">this project for med</p>
+        <p class="text-center"> blog kalna sowa</p>
         <p class="text-center text-blue-400 text-xl font-bold">
-          <a href="#">visit project </a>
+          <a href="https://blognewrepo.herokuapp.com/"> visit project  </a>
+        </p>
+      </div>
+      <div class="my-6 mx-4">
+        <img
+         src="..\assets\images\imgprojects\tanatos.JPG"
+          class=""
+          style="max-width: 100%"
+          alt=""
+        />
+        <p class="text-center">tanatos template (only for pc)</p>
+        <p class="text-center text-blue-400 text-xl font-bold">
+          <a href="http://mohhaammeedd.000webhostapp.com/tanatos">  visit project  </a>
+        </p>
+      </div>
+      <div class="my-6 mx-4">
+        <img
+        src="..\assets\images\imgprojects\timer.JPG"
+          class=""
+          style="max-width: 100%"
+          alt=""
+        />
+        <p class="text-center">timer with animation </p>
+        <p class="text-center text-blue-400 text-xl font-bold">
+          <a href="https://mohhaammeedd.000webhostapp.com/test1/"> visit project </a>
+        </p>
+      </div>
+      <div class="my-6 mx-4">
+        <img
+         src="..\assets\images\imgprojects\flipauth.JPG"
+          class=""
+          style="max-width: 100%"
+          alt=""
+        />
+        <p class="text-center">style flip login</p>
+        <p class="text-center text-blue-400 text-xl font-bold">
+          <a href="https://mohhaammeedd.000webhostapp.com/flipauth/"> visit project  </a>
+        </p>
+      </div>
+      <div class="my-6 mx-4">
+        <img
+         src="..\assets\images\imgprojects\learnenglish.JPG"
+          class=""
+          style="max-width: 100%"
+          alt=""
+        />
+        <p class="text-center">lading page learnenglish</p>
+        <p class="text-center text-blue-400 text-xl font-bold">
+          <a href="https://mohhaammeedd.000webhostapp.com/learnEngilsh/">  visit project  </a>
+        </p>
+      </div>
+      <div class="my-6 mx-4">
+        <img
+         src="..\assets\images\imgprojects\animations.JPG"
+          class=""
+          style="max-width: 100%"
+          alt=""
+        />
+        <p class="text-center">some animations in one page</p>
+        <p class="text-center text-blue-400 text-xl font-bold">
+          <a href="https://mohhaammeedd.000webhostapp.com/learnEngilsh/">  visit project  </a>
         </p>
       </div>
     </div>
@@ -205,7 +337,7 @@ export default {
         type: 'loop',
         perPage: 1,
         width: 1200,
-        height: 299,
+        height: 425,
         perMove: 1,
         focus: true,
         // autoplay: true,
@@ -247,11 +379,11 @@ export default {
 
   mounted() {
     // Set the sync target.
-    this.$refs.primary.sync(this.$refs.secondary.splide)
+    // this.$refs.primary.sync(this.$refs.secondary.splide)
     // this.$refs.primary2.sync( this.$refs.secondary.splide );
     this.$refs.primary.sync(this.$refs.primary2.splide)
-    this.$refs.secondary.sync(this.$refs.primary2.splide)
-    this.$refs.secondary.sync(this.$refs.primary.splide)
+    // this.$refs.secondary.sync(this.$refs.primary2.splide)
+    // this.$refs.secondary.sync(this.$refs.primary.splide)
     // this.$refs.primary2.sync( this.$refs.primary.splide );
   },
   methods: {

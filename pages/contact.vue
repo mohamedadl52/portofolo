@@ -1,40 +1,58 @@
 <template>
   <div class="bgground">
     <navbar-3></navbar-3>
-    <div class="absolute top-48 md:right-32 lg:right-64 leading-10 mx-2">
-      <form action="" class="mx-auto">
-        <input
-          id=""
-          type="text"
-          name=""
-          placeholder="name"
-          class="w-full md:w-56"
-        />
-        <input
-          id=""
-          type="email"
-          name=""
-          placeholder="email"
-          class="w-full md:w-64"
-        />
-        <br />
-        <input
-          id=""
-          type="text"
-          name=""
-          placeholder="subject"
-          class="w-full p-0"
-        />
-        <br />
-        <textarea class="w-full" rows="6" placeholder="message"></textarea>
 
-        <button
-          style="background-color: #5a4b4b"
-          class="border-black border-2 w-32 mx-auto block"
-        >
-          Send
-        </button>
-      </form>
+    <div class="flex absolute w-full xl:w-10/12 xl:ml-20 bgground top-32 md:top-40 xl:top-0 justify-center items-center">
+          <div class="con w-11/12 mx-auto -ml-1">
+             <h1> contact us </h1>
+        <div class="row100">
+          <div class="col">
+            <div class="inputbox">
+               <input type="text" name="" required id="">
+               <span class="text">first name </span>
+               <span class="line"> </span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputbox">
+               <input type="text" name="" required id="">
+               <span class="text">last name </span>
+               <span class="line"> </span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputbox">
+               <input type="text" name="" required id="">
+               <span class="text">Email </span>
+               <span class="line"> </span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputbox">
+               <input type="text" name="" required id="">
+               <span class="text">Moblie </span>
+               <span class="line"> </span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputbox textarea">
+               <textarea type="text" placeholder="type your supject here" name="" > </textarea>
+               <span class="linee"> </span>
+            </div>
+          </div>
+        
+        </div>
+        <div class="row100">
+          <div class="col w-full text-center ">
+             <input class="mt-16 w-24 mx-auto cursor-pointer text-white bg-blue-500 p-2"  type="submit" value="Send">
+          </div>
+        
+        </div>
+          </div>
     </div>
   </div>
 </template>
@@ -46,10 +64,54 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-input {
-  padding: 2px;
-}
 .bgground {
   background-color: #797171;
 }
+.con {
+  h1 {
+    @apply text-2xl ml-1 mt-20 md:ml-0 mb-5 text-white uppercase font-bold  w-full text-center
+  }
+  .row100 {
+    @apply relative w-full  flex-col md:flex-row  flex ;
+        grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+   .col {
+     @apply relative px-3 transition-all  m-3 w-full duration-500  ;
+     transition: all .5s
+   } 
+   .inputbox {
+     @apply relative w-full h-10 text-gray-800 ;
+       input , .textarea textarea {
+         @apply w-full absolute h-full bg-transparent border-0   border-b-2 border-black outline-none text-xl px-4 z-10 text-white ;
+           &:focus ~ .line ,  &:valid ~ .line {
+              height: 100%;
+           }
+         &:focus + .text ,  &:valid + .text   {
+           @apply -left-3 -top-8
+         }
+       }
+       .text {
+         @apply absolute left-0 top-0 leading-10 text-lg block px-5 transition-all duration-500 pointer-events-none  
+       }
+     .line {
+       @apply absolute bottom-0 transition-all duration-500 pointer-events-none rounded-md bg-gray-500 block h-1 w-full
+     }
+
+
+   }
+  }
+
+}
+
+     .textarea {
+   @apply relative w-full h-64 py-3 ;
+   textarea {
+     @apply bg-transparent text-white border-0 border-black border-b-2;
+     width: 100%;
+      height: 100px;
+      resize: none;
+      &::placeholder{
+        color: black;
+      }
+   }
+     }
 </style>

@@ -105,7 +105,7 @@
                </div>
           </div>
           <div class="flex flex-col md:flex-row mx-2 leading-5 mt-10 md:mt-20 ">
-               <div>
+               <div class="md:order-2 md:ml-2">
                 <h1 class="text-3xl text-maincolor md:mt-20  font-bold"> what are we doing ?</h1>
              <p class="text-xl text-maincolor leading-7 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum quo omnis totam harum autem sed obcaecati laudantium adipisci libero vero similique dicta !</p>
              <button class="bg-btn text-maincolor  p-2">read more</button>
