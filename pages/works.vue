@@ -61,7 +61,7 @@
    <img src="../assets/images/imgprojects/timer.JPG"/>
         </splide-slide>
         <splide-slide>
-   <img src="../asset/\images/imgprojects/flipauth.JPG"/>
+   <img src="../assets/images/imgprojects/flipauth.JPG"/>
         </splide-slide>
         <splide-slide>
    <img src="../assets/images/imgprojects/learnenglish.JPG"/>
