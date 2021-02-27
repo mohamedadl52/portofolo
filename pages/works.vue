@@ -46,28 +46,28 @@
         @splide:arrows:updated="onArrowsMounted"
       >
         <splide-slide>
-          <img src="..\assets\images\imgprojects\sushii.JPG"/>
+          <img src="../assets/images/imgprojects/sushii.JPG"/>
         </splide-slide>
         <splide-slide>
-            <img src="..\assets\images\imgprojects\yogaa.JPG"/>
+            <img src="../assets/images/imgprojects/yogaa.JPG"/>
         </splide-slide>
         <splide-slide>
-        <img src="..\assets\images\imgprojects\clanasowa.JPG"/>
+        <img src="../assets/images/imgprojects/clanasowa.JPG"/>
         </splide-slide>
         <splide-slide>
-   <img src="..\assets\images\imgprojects\tanatos.JPG"/>
+   <img src="../assets/images/imgprojects/tanatos.jpg"/>
         </splide-slide>
         <splide-slide>
-   <img src="..\assets\images\imgprojects\timer.JPG"/>
+   <img src="../assets/images/imgprojects/timer.JPG"/>
         </splide-slide>
         <splide-slide>
-   <img src="..\assets\images\imgprojects\flipauth.JPG"/>
+   <img src="../assets/images/imgprojects/flipauth.JPG"/>
         </splide-slide>
         <splide-slide>
-   <img src="..\assets\images\imgprojects\learnenglish.JPG"/>
+   <img src="../assets/images/imgprojects/learnenglish.jpg"/>
         </splide-slide>
         <splide-slide>
-   <img src="..\assets\images\imgprojects\animations.JPG"/>
+   <img src="../assets/images/imgprojects/animations.JPG"/>
         </splide-slide>
       </splide>
       <splide ref="primary2" :options="primaryOptions2">
@@ -225,7 +225,7 @@
       </p>
       <div class="my-6 mx-4">
         <img
-       src="..\assets\images\imgprojects\sushii.JPG"
+       src="../assets/images/imgprojects/sushii.JPG"
           class=""
           style="max-width: 100%"
           alt=""
@@ -237,7 +237,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-           src="..\assets\images\imgprojects\yogaa.JPG"
+           src="../assets/images/imgprojects/yogaa.JPG"
           class=""
           style="max-width: 100%"
           alt=""
@@ -249,7 +249,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-          src="..\assets\images\imgprojects\clanasowa.JPG"
+          src="../assets/images/imgprojects/clanasowa.JPG"
           class=""
           style="max-width: 100%"
           alt=""
@@ -261,7 +261,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-         src="..\assets\images\imgprojects\tanatos.JPG"
+         src="../assets/images/imgprojects/tanatos.jpg"
           class=""
           style="max-width: 100%"
           alt=""
@@ -273,7 +273,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-        src="..\assets\images\imgprojects\timer.JPG"
+        src="../assets/images/imgprojects/timer.JPG"
           class=""
           style="max-width: 100%"
           alt=""
@@ -285,7 +285,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-         src="..\assets\images\imgprojects\flipauth.JPG"
+         src="../assets/images/imgprojects/flipauth.JPG"
           class=""
           style="max-width: 100%"
           alt=""
@@ -297,7 +297,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-         src="..\assets\images\imgprojects\learnenglish.JPG"
+         src="../assets/images/imgprojects/learnenglish.jpg"
           class=""
           style="max-width: 100%"
           alt=""
@@ -309,7 +309,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-         src="..\assets\images\imgprojects\animations.JPG"
+         src="../assets/images/imgprojects/animations.JPG"
           class=""
           style="max-width: 100%"
           alt=""
