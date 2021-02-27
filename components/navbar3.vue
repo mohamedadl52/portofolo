@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen overflow-scroll xl:overflow-hidden z-20">
+  <div class="h-screen relative overflow-scroll xl:overflow-hidden z-50">
     <nav
       style="direction: rtl"
       class="md:flex xl:flex-col xl:justify-end xl:items-start z-20"
@@ -37,7 +37,7 @@
           <div class="z-20">
             <ul
               :class="{ hidden: fullwidth }"
-              class="flex xl:items-center justify-around z-20 md:mt-8 xl:w-32 xl:mt-8 xl:flex flex-grow items-center text-blue-500 transition-all duration-700 delay-75 md:flex ease-linear overflow-hidden xl:flex-col"
+              class="flex xl:items-center  justify-around z-50 md:mt-8 xl:w-32 xl:mt-8 xl:flex flex-grow items-center text-blue-500  md:flex ease-linear overflow-hidden xl:flex-col"
             >
               <li class="relative z-20" @mouseenter="noti1">
                 <a href="/">
@@ -158,6 +158,9 @@ export default {
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;
+}
+* {
+  transition : all 1s linear
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;

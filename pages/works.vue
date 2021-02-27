@@ -316,7 +316,7 @@
         />
         <p class="text-center">some animations in one page</p>
         <p class="text-center text-blue-400 text-xl font-bold">
-          <a href="https://mohhaammeedd.000webhostapp.com/learnEngilsh/">  visit project  </a>
+          <a href="/animations">  visit project  </a>
         </p>
       </div>
     </div>
