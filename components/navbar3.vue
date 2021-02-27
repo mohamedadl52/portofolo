@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen relative overflow-scroll xl:overflow-hidden z-50">
+  <div class="h-screen overflow-scroll xl:overflow-hidden z-20">
     <nav
       style="direction: rtl"
       class="md:flex xl:flex-col xl:justify-end xl:items-start z-20"
@@ -34,18 +34,8 @@
         class="flex-grow xl:flex flex-col xl:h-screen justify-between md:pb-6 z-20"
       >
         <transition name="fade" class="z-20">
-          <div class="z-20">
-            <ul
-              :class="{ hidden: fullwidth }"
-              class="flex xl:items-center  justify-around z-50 md:mt-8 xl:w-32 xl:mt-8 xl:flex flex-grow items-center text-blue-500  md:flex ease-linear overflow-hidden xl:flex-col"
-            >
-              <li class="relative z-20" @mouseenter="noti1">
-                <a href="/">
-                  <font-awesome-icon
-                    class="text-5xl my-4 hover:text-white transition-all duration-700 z-20"
-                    :icon="['fas', 'home']"
-                /></a>
-                <notifications group="foo" position="center top">
+          <div class="z-50">
+             <notifications group="foo" position="center top">
                   <template slot="body" slot-scope="props">
                     <div
                       style="font-family: 'Aref Ruqaa', serif"
@@ -54,27 +44,38 @@
                     ></div>
                   </template>
                 </notifications>
+            <ul
+              :class="{ hidden: fullwidth }"
+              class="flex xl:items-center justify-around z-20 md:mt-8 xl:w-32 xl:mt-8 xl:flex flex-grow items-center text-blue-500 transition-all duration-700 delay-75 md:flex ease-linear overflow-hidden xl:flex-col"
+            >
+              <li class="relative z-20" @mouseenter="noti1">
+                <nuxt-link to="/">
+                  <font-awesome-icon
+                    class="text-5xl my-4 hover:text-white transition-all duration-700 z-20"
+                    :icon="['fas', 'home']"
+                /></nuxt-link>
+               
               </li>
               <li class="z-20" @mouseenter="noti2">
-                <a href="/skills">
+                <nuxt-link to="/skills">
                   <font-awesome-icon
                     class="text-5xl my-4 hover:text-white transition-all duration-700 z-20"
                     :icon="['fas', 'user-cog']"
-                /></a>
+                /></nuxt-link>
               </li>
               <li class="z-20" @mouseenter="noti3">
-                <a href="/works">
+                <nuxt-link to="/works">
                   <font-awesome-icon
                     class="text-5xl my-4 hover:text-white transition-all duration-700 z-20"
                     :icon="['fas', 'briefcase']"
-                /></a>
+                /></nuxt-link>
               </li>
               <li class="z-20" @mouseenter="noti4">
-                <a href="/contact">
+                <nuxt-link to="/contact">
                   <font-awesome-icon
                     class="text-5xl my-4 hover:text-white transition-all duration-700 z-20"
                     :icon="['fas', 'envelope']"
-                /></a>
+                /></nuxt-link>
               </li>
             </ul>
           </div>
@@ -83,7 +84,7 @@
           class="text-white hidden xl:flex xl:flex-row xl:items-center justify-around items-center"
         >
           <li>
-            <a href="/home">
+            <a href="https://www.facebook.com/profile.php?id=100011322487924">
               <font-awesome-icon
                 class="text-2xl hover:text-blue-400"
                 :icon="['fab', 'facebook']"
@@ -97,7 +98,7 @@
             /></a>
           </li>
           <li>
-            <a href="/home">
+            <a href="http://t.me/mhmdadl">
               <font-awesome-icon
                 class="text-2xl hover:text-blue-400"
                 :icon="['fab', 'telegram']"
@@ -155,14 +156,7 @@ export default {
 </script>
 
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
-}
-* {
-  transition : all 1s linear
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
+
+
+
 </style>

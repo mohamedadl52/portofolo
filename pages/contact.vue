@@ -1,8 +1,37 @@
 <template>
   <div class="bgground">
-    <navbar-3></navbar-3>
+      <div class="z-50"><navbar-3></navbar-3></div>
 
-    <div class="flex absolute w-full xl:w-10/12 xl:ml-20 bgground top-32 md:top-40 xl:top-0 justify-center items-center">
+      <div class="absolute w-full  mx-auto top-48 z-50">
+        <ul
+          class="text-white flex w-56 mx-auto xl:hidden  justify-around items-center"
+        >
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100011322487924">
+              <font-awesome-icon
+                class="text-4xl hover:text-blue-400"
+                :icon="['fab', 'facebook']"
+            /></a>
+          </li>
+          <li>
+            <a href="00249907452551">
+              <font-awesome-icon
+                class="text-4xl hover:text-blue-400"
+                :icon="['fab', 'whatsapp']"
+            /></a>
+          </li>
+          <li>
+            <a href="http://t.me/mhmdadl">
+              <font-awesome-icon
+                class="text-4xl hover:text-blue-400"
+                :icon="['fab', 'telegram']"
+            /></a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="z-20 bgground">
+        <div class="flex absolute w-full xl:w-10/12 xl:ml-20 bgground top-48 md:top-40 xl:top-0 justify-center items-center">
           <div class="con w-11/12 mx-auto -ml-1">
              <h1> contact us </h1>
         <div class="row100">
@@ -54,6 +83,8 @@
         </div>
           </div>
     </div>
+
+      </div>
   </div>
 </template>
 

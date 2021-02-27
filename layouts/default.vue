@@ -52,4 +52,13 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+/* a.nuxt-link-active {
+color : white  
+ 
+} */
+a.nuxt-link-exact-active {
+  color : white 
+ 
+}
 </style>
