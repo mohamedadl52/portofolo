@@ -55,7 +55,7 @@
         <img src="../assets/images/imgprojects/clanasowa.JPG"/>
         </splide-slide>
         <splide-slide>
-   <img src="../assets/images/imgprojects/tanatos.JPG"/>
+   <img src="../assets/images/imgprojects/tanatos.jpg"/>
         </splide-slide>
         <splide-slide>
    <img src="../assets/images/imgprojects/timer.JPG"/>
@@ -64,7 +64,7 @@
    <img src="../assets/images/imgprojects/flipauth.JPG"/>
         </splide-slide>
         <splide-slide>
-   <img src="../assets/images/imgprojects/learnenglish.JPG"/>
+   <img src="../assets/images/imgprojects/learnenglish.jpg"/>
         </splide-slide>
         <splide-slide>
    <img src="../assets/images/imgprojects/animations.JPG"/>
@@ -261,7 +261,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-         src="../assets/images/imgprojects/tanatos.JPG"
+         src="../assets/images/imgprojects/tanatos.jpg"
           class=""
           style="max-width: 100%"
           alt=""
@@ -297,7 +297,7 @@
       </div>
       <div class="my-6 mx-4">
         <img
-         src="../assets/images/imgprojects/learnenglish.JPG"
+         src="../assets/images/imgprojects/learnenglish.jpg"
           class=""
           style="max-width: 100%"
           alt=""
