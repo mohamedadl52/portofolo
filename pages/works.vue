@@ -247,7 +247,7 @@
           <a href="/yoga">visit project </a>
         </p>
       </div>
-      <div class="my-6 mx-4">
+      <div class="my-6 mx-4 text-white">
         <img
           src="../assets/images/imgprojects/clanasowa.JPG"
           class=""
