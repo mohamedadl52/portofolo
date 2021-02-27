@@ -199,17 +199,17 @@
 
     <div
       style="background-color: #797171"
-      class="flex flex-col justify-center items-center absolute top-56 md:hidden"
+      class="flex flex-col justify-center items-center   absolute top-40 mt-5 md:hidden"
     >
       <img
-        class="absolute top-4 left-64 w-16"
+        class="absolute top-16 mt-2 right-4  w-16"
         src="../assets/images/animal.png"
         alt=""
       />
 
       <img
         style="transform: rotateY(180deg)"
-        class="absolute top-4 left-4 w-16"
+        class="absolute top-16 mt-2  left-4 w-16"
         src="../assets/images/animal.png"
         alt=""
       />
@@ -218,19 +218,22 @@
         style="
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
             Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            text-shadow : 2px 2px 10px ;
+            background-color : rgb(48, 44, 44)
         "
-        class="text-white text-2xl underline uppercase"
+        class="text-white text-2xl  w-full text-center shadow-2xl uppercase"
       >
         my works
       </p>
-      <div class="my-6 mx-4 text-white">
+      <div class="my-6 mx-4 mt-20 text-white">
         <img
        src="../assets/images/imgprojects/sushii.JPG"
           class=""
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">sushi template</p>
+        <p class="text-center pp">sushi template</p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="https://mohhaammeedd.000webhostapp.com/sushi/">visit project </a>
         </p>
@@ -242,7 +245,7 @@
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">yoga template</p>
+        <p class="text-center pp">yoga template</p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="/yoga">visit project </a>
         </p>
@@ -254,7 +257,7 @@
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center"> blog kalna sowa</p>
+        <p class="text-center pp"> blog kalna sowa</p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="https://blognewrepo.herokuapp.com/"> visit project  </a>
         </p>
@@ -266,7 +269,7 @@
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">tanatos template (only for pc)</p>
+        <p class="text-center pp">tanatos template (only for pc)</p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="http://mohhaammeedd.000webhostapp.com/tanatos">  visit project  </a>
         </p>
@@ -278,7 +281,7 @@
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">timer with animation </p>
+        <p class="text-center pp">timer with animation </p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="https://mohhaammeedd.000webhostapp.com/test1/"> visit project </a>
         </p>
@@ -290,7 +293,7 @@
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">style flip login</p>
+        <p class="text-center pp">style flip login</p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="https://mohhaammeedd.000webhostapp.com/flipauth/"> visit project  </a>
         </p>
@@ -302,7 +305,7 @@
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">lading page learnenglish</p>
+        <p class="text-center pp">lading page learnenglish</p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="https://mohhaammeedd.000webhostapp.com/learnEngilsh/">  visit project  </a>
         </p>
@@ -314,7 +317,7 @@
           style="max-width: 100%"
           alt=""
         />
-        <p class="text-center">some animations in one page</p>
+        <p class="text-center pp">some animations in one page</p>
         <p class="text-center text-blue-400 text-xl font-bold">
           <a href="/animations">  visit project  </a>
         </p>
@@ -391,11 +394,34 @@ export default {
 
     onArrowsMounted(splide, prev, next) {},
   },
+
+   head: {
+    title: 'my works',
+    htmlAttrs: {
+      lang: 'en',
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '' },
+    ],
+    link: [
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      {
+        rel: 'stylesheet',
+        href:'https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap',
+      },
+    ],
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 .bgground {
   background-color: #797171;
+}
+
+.pp {
+  font-family: 'Akaya Telivigala', cursive;
 }
 </style>
