@@ -23,7 +23,7 @@
     "@tailwindcss/forms": "^0.2.1",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
-    "core-js": "^3.8.3",
+    "core-js": "^3.10.0",
     "k-progress": "^1.5.0",
     "nuxt": "^2.14.12",
     "nuxt-fontawesome": "^0.4.0",
